@@ -3,7 +3,7 @@ const hoursPole = document.getElementById("hours");
 const minsPole = document.getElementById("mins");
 const secPole = document.getElementById("sec");
 
-const newYear = "1 jan 2024";
+const newYear = "1 Jan 2024";
 
 function countdown() {
   const newYearDate = new Date(newYear);
@@ -16,14 +16,20 @@ function countdown() {
   const mins = Math.floor(totalSeconds / 60) % 60;
   const sec = Math.floor(totalSeconds) % 60;
 
-  // console.log(newYearDate - currentDate);
-  // console.log(days, hours, mins, seconds);
-}
-
 daysPole.innerHTML = days;
 hoursPole.innerHTML = hours;
 minsPole.innerHTML = mins;
 secPole.innerHTML = sec;
+
+
+  // console.log(newYearDate - currentDate);
+  // console.log(days, hours, mins, seconds);
+}
+
+// daysPole.innerHTML = days;
+// hoursPole.innerHTML = hours;
+// minsPole.innerHTML = mins;
+// secPole.innerHTML = sec;
 
 countdown();
 

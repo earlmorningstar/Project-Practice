@@ -23,6 +23,7 @@ h1 {
     font-weight: normal;
     font-size: 40px;
     margin-top: 1em;
+    color: rgb(5, 35, 55);
 }
 
 .large-text {
@@ -31,6 +32,7 @@ h1 {
     line-height: 1;
     margin: 0 2rem;
     margin-top: 5rem;
+    color: rgb(198, 225, 248);
 }
 
 .dhms {
@@ -39,4 +41,5 @@ h1 {
 
 .dhms span {
     font-size: 1.3rem;
+    color: rgb(198, 225, 248);
 }
